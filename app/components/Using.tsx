@@ -37,7 +37,7 @@ export default function Using() {
       <ul className="flexJustifyCenter flex-wrap gap-2 py-9">
         {offering.map((offering, key) => (
           <li
-            className="px-5 py-2 shadow-md bg:[#EAEFF2] dark:bg-[#17181C] rounded-full border border-zinc-400 dark:border-zinc-100"
+            className="px-5 py-2 shadow-md bg:[#CFD3D5] dark:bg-[#17181C] rounded-full border border-zinc-400 dark:border-zinc-100"
             key={key}
           >
             {offering}
