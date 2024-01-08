@@ -1,7 +1,6 @@
 import { iconsUI } from "../constants/icons";
+
 import { personaldata } from "../constants/personal";
-import ButtonCopy from "../UI/ButtonCopy";
-import ButtonLink from "../UI/ButtonLink";
 import Image from "next/image";
 const Hero = () => {
   const personal = personaldata[0];
@@ -9,7 +8,7 @@ const Hero = () => {
     <section className="mx-auto w-full grid py-12">
       <div className="flex items-center pb-9 flex-col gap-6">
         <Image
-          className="rounded-[20%]"
+          className="rounded-full"
           src={"/avatar.webp"}
           width={160}
           height={160}
@@ -17,20 +16,9 @@ const Hero = () => {
         />
         <h1 className="text-7xl max-sm:text-6xl font-bold">˗ˏˋIhsanˎˊ</h1>
       </div>
-      <div className="flex flex-wrap gap-2">
-        <ButtonLink
-          link={"#"}
-          variant={"bg-coral-100 border-coral-500 dark:fill-white"}
-          text={"Whatsapp"}
-          icon={iconsUI.whatsapp}
-        />
-        <ButtonCopy />
-      </div>
-      <div className="mt-[2rem] relative px-8 rounded-lg border bg-slate-100 dark:bg-zinc-900 border-zinc-400 dark:border-zinc-600 shadow-md">
-        <code className="absolute top-0 left-0 p-2 rounded-t-lg text-sky-500 w-full border-b-[1px] border-zinc-400 dark:border-zinc-600 pl-8 text-[14px]">
-          about_me.md
-        </code>
-        <p className="pt-[4rem] text-[18px] dark:text-zinc-400">
+
+      <div className="mt-[2rem]">
+        <p className="pt-[4rem] text-[18px] text-center dark:text-zinc-400">
           {personal.about}
         </p>
         <div className="flex items-center gap-2 py-1 max-sm:flex-col max-sm:items-start">

@@ -1,4 +1,8 @@
 import { socialicons } from "../constants/socialicons";
+import ButtonCopy from "../UI/ButtonCopy";
+import ButtonLink from "../UI/ButtonLink";
+import { iconsUI } from "../constants/icons";
+
 export default function Contact() {
   return (
     <div className="my-[5rem]">
@@ -10,7 +14,7 @@ export default function Contact() {
         {socialicons.map((social) => (
           <a
             key={social.id}
-            href="#"
+            href={social.url}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg p-3 bg-slate-300 dark:bg-coral-800 hover:scale-[0.9] transition-all ease-linear dark:fill-coral-300"
@@ -18,6 +22,15 @@ export default function Contact() {
             {social.icon}
           </a>
         ))}
+      </div>
+      <div className="flexJustifyCenter gap-2">
+        <ButtonLink
+          link={"#"}
+          variant={"bg-coral-100 border-coral-500 dark:fill-white"}
+          text={"Whatsapp"}
+          icon={iconsUI.whatsapp}
+        />
+        <ButtonCopy />
       </div>
     </div>
   );
