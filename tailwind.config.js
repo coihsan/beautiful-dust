@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--gradient-color-stops))",
       },
+      gradientColorStopPositions: {
+        33: "33%",
+      },
     },
   },
   plugins: [],
