@@ -27,7 +27,7 @@ export const personaldata: {
       {
         key: 1,
         icon: iconsUI.palette,
-        skilled: "Graphic Design",
+        skilled: "Design",
       },
       {
         key: 2,

@@ -6,4 +6,10 @@
   .flexJustifyCenter {
     @apply flex items-center justify-center;
   }
+  .bgTheme {
+    @apply bg-[#17181C] text-zinc-50 fill-zinc-50;
+  }
+  .bgSchemaDark {
+    @apply bg-[#EAEFF2] dark:bg-[#17181C] text-[#17181C] dark:text-zinc-50;
+  }
 }
