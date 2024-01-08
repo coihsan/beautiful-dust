@@ -2,24 +2,33 @@ import { iconsUI } from "../constants/icons";
 import TitleSection from "../UI/TitleSection";
 import { techstack, moretools } from "../constants/techstack";
 
-interface IconProps{
-    index: () => function;
-    className: string;
-    key: number;
-    title: string;
-    icon: JSX.element
+interface TechStackItem {
+  id: number;
+  title: string;
+  icon: JSX.Element;
 }
-export function ({index, className, key, title, icon} : IconProps){
-    return(
-        <ul>
-            {{index}.map}
-        </ul>
-    )
+
+interface WrapperListProps {
+  index: TechStackItem[];
+  className: string;
+}
+export function WrapperList({ items, className }: WrapperListProps) {
+  return (
+    <ul>
+      {index.map((items) => (
+        <li key={key}>
+          <div>{icon}</div>
+          <h4>{title}</h4>
+        </li>
+      ))}
+    </ul>
+  );
 }
 export default function Experties() {
   return (
     <section className="w-full rounded-lg bgSchemaDark p-9">
       <TitleSection title={"Tech Stack"} icon={iconsUI.terminal} />
+      <WrapperList className="" index={techstack} />
     </section>
   );
 }
