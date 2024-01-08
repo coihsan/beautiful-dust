@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./components/Hero";
 import Experties from "./components/Experties";
 import Using from "./components/Using";
+import CodeForFun from "./components/CodeForFun";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Experties />
       <Using />
+      <CodeForFun />
     </main>
   );
 }
