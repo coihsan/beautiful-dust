@@ -1,4 +1,5 @@
 import { iconsUI } from "../constants/icons";
+
 import Link from "next/link";
 import { personaldata } from "../constants/personal";
 import Image from "next/image";
