@@ -17,7 +17,7 @@ export function WrapperList({ index, className }: WrapperListProps) {
     <ul className="flex flex-wrap gap-2 justify-center">
       {index.map((item) => (
         <li
-          className="flexJustifyCenter gap-3 px-5 py-2 rounded-full bgSchemaList bordered"
+          className="flexJustifyCenter gap-3 px-5 py-2 rounded-full bgSchemaList bordered max-sm:text-sm"
           key={item.id}
         >
           <div>{item.icon}</div>
@@ -32,8 +32,10 @@ export default function Experties() {
     <section className="w-full rounded-lg bgSchemaDark p-9 max-sm:px-3 max-sm:py-9 ">
       <TitleSection title={"Tech Stack"} icon={iconsUI.terminal} />
       <WrapperList className={""} index={techstack} />
-      <div className="my-5">
-        <h3 className="text-center text-[1.5rem] font-semibold">More Tool's</h3>
+      <div className="mt-5">
+        <h3 className="text-center text-[1.5rem] font-semibold mb-5">
+          More Tool's
+        </h3>
         <WrapperList className={""} index={moretools} />
       </div>
     </section>

@@ -1,7 +1,8 @@
+import NextJS from "../UI/NextJS";
 export default function Using() {
   return (
     <div className="py-12">
-      <h1 className="text-[2rem] mx-auto font-semibold text-center w-10/12 max-sm:w-full">
+      <h1 className="leading-7 text-[2rem] max-sm:text-[1.4rem] mx-auto font-semibold text-center w-10/12 max-sm:w-full">
         When focusing on SEO or features, I use{" "}
         <a
           className="text-[#1ABCFE] underline"
@@ -31,6 +32,9 @@ export default function Using() {
         </a>{" "}
         frameworks in my work.
       </h1>
+      <div className="pt-9">
+        <NextJS />
+      </div>
     </div>
   );
 }
