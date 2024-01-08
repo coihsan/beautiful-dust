@@ -42,17 +42,18 @@ const Hero = () => {
         </div>
         <div className="flex items-center gap-2 flex-col">
           <h3 className="font-semibold">Credentials :</h3>
-          <div className="flex items-center gap-2 flex-wrap">
+          <div className="flex items-center gap-1 flex-wrap">
             <div>{iconsUI.skillshop}</div>
             <a
               href=""
-              className="px-4 py-1 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline"
+              className="px-4 py-1 text-[1.2rem] text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline"
             >
               Skillshop
             </a>
+            {" / "}
             <a
               href=""
-              className="px-4 py-1 hover:bg-zinc-200 hover:dark:bg-zinc-800 hover:underline rounded-full"
+              className="px-4 text-[1.2rem] py-1 text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 hover:underline rounded-full"
             >
               Accredible.net
             </a>

@@ -12,4 +12,10 @@
   .bgSchemaDark {
     @apply bg-[#EAEFF2] dark:bg-[#17181C] text-[#17181C] dark:text-zinc-50;
   }
+  .bgSchemaList {
+    @apply bg-white dark:bg-[#17181C] text-[#17181C] dark:text-zinc-50 drop-shadow-md;
+  }
+  .bordered {
+    @apply border dark:border-[#9AA0AE];
+  }
 }
