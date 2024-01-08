@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Experties from "./components/Experties";
 import Using from "./components/Using";
 import CodeForFun from "./components/CodeForFun";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Experties />
       <Using />
       <CodeForFun />
+      <Contact />
     </main>
   );
 }

@@ -1,65 +1,61 @@
-export const ProjectList = [
+export const ProjectList: {
+  id: number;
+  image: string;
+  url: string;
+  getCode: string;
+  projectstitle: string;
+  ProjectsDesc: string[];
+}[] = [
   {
     id: 0,
-    nameOfProjects: "ZincStudio - Template Landing Page",
-    categoryProject: "#template",
-    codeProject: "NextJS/Tailwind CSS",
-    imageLink: "/Zinc-Design.webp",
-    urlPreview: "https://zinc-starter.vercel.app/",
-    urlDownload:
+    image: "/Zinc-Design.webp",
+    url: "https://zinc-starter.vercel.app/",
+    getCode:
       "https://github.com/coihsan/zinc-starters-rgkhtp/archive/refs/heads/main.zip",
+    projectstitle: "Zinc Studio - Template Landing Page",
+    ProjectsDesc: ["Next.js", "TailwindCSS"],
   },
   {
     id: 1,
-    nameOfProjects: "berrynet starter template",
-    categoryProject: "#template",
-    codeProject: "NextJS/Tailwind CSS",
-    imageLink: "/berrynet-Internet-Provider.webp",
-    urlPreview: "https://berrynet-starter.vercel.app/",
-    urlDownload:
+    image: "/berrynet-Internet-Provider.webp",
+    url: "https://berrynet-starter.vercel.app/",
+    getCode:
       "https://github.com/coihsan/berrynet-starters-rgkhtp/archive/refs/heads/main.zip",
+    projectstitle: "berrynet Internet Service Provider",
+    ProjectsDesc: ["Next.js", "TailwindCSS"],
   },
   {
-    // Project 1
     id: 2,
-    nameOfProjects: "Jhon Doe Portofolio + Blog Page",
-    categoryProject: "#template",
-    codeProject: "Vite/Pure CSS",
-    imageLink: "/jhondoe-hero.webp",
-    urlPreview: "https://coihsan.github.io/jhon-doe-template-pure-html/",
-    urlDownload:
+    image: "/jhondoe-hero.webp",
+    url: "https://coihsan.github.io/jhon-doe-template-pure-html/",
+    getCode:
       "https://github.com/coihsan/jhon-doe-template-pure-html/archive/refs/heads/main.zip",
+    projectstitle: "Jhon Doe Portofolio + Blog Page",
+    ProjectsDesc: ["Vite.js", "React.js", "Pure CSS"],
   },
   {
-    // Project 2
     id: 3,
-    nameOfProjects: "Mack Smith - Portofolio Web Page",
-    categoryProject: "#template",
-    codeProject: "HTML/CSS/JS",
-    imageLink: "/jhondoe-hero.webp",
-    urlPreview: "https://macksmith-template.stackblitz.io/",
-    urlDownload: "ss",
+    image: "/macksmith.webp",
+    url: "https://macksmith-template.stackblitz.io/",
+    projectstitle: "Mack Smith - Portofolio Web Page",
+    ProjectsDesc: ["HTML", "CSS", "JavaScript"],
   },
   {
-    // Project 3
     id: 4,
-    nameOfProjects: "Karsa Mahasura - Resume Web Page",
-    categoryProject: "#template",
-    codeProject: "HTML/CSS/JS",
-    imageLink: "/jhondoe-hero.webp",
-    urlPreview: "https://coihsan.github.io/karsa-mahasura-template/",
-    urlDownload:
+    image: "/Karsa.webp",
+    url: "https://coihsan.github.io/karsa-mahasura-template/",
+    getCode:
       "https://github.com/coihsan/karsa-mahasura-template/archive/refs/heads/main.zip",
+    projectstitle: "Karsa Mahasura - Resume Web Page",
+    ProjectsDesc: ["HTML", "CSS", "JavaScript"],
   },
   {
-    // Project 4
     id: 5,
-    nameOfProjects: "Bhadrika Cipta - Resume Web Page",
-    categoryProject: "#template",
-    codeProject: "Vite/TailwinCSS",
-    imageLink: "Bhadrika.png",
-    urlPreview: "https://coihsan.github.io/bhadrika-cipta-template/",
-    urlDownload:
+    image: "/Bhadrika.png",
+    url: "https://coihsan.github.io/bhadrika-cipta-template/",
+    projectstitle: "Bhadrika Cipta - Resume Web Page",
+    getCode:
       "https://github.com/coihsan/bhadrika-cipta-template/archive/refs/heads/main.zip",
+    ProjectsDesc: ["Vite.js", "React.js", "Pure CSS"],
   },
 ];

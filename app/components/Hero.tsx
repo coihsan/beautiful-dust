@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
 
       <div className="mt-[2rem]">
-        <p className="text-[18px] text-center dark:text-zinc-400 w-10/12 mx-auto max-sm:w-full">
+        <p className="text-[18px] text-center text-zinc-900 dark:text-zinc-300 w-10/12 mx-auto max-sm:w-full">
           {personal.about}
         </p>
         <div className="my-[2rem]">

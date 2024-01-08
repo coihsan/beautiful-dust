@@ -6,11 +6,11 @@ import { iconsUI } from "../constants/icons";
 export default function Contact() {
   return (
     <div className="my-[5rem]">
-      <h3 className="font-bold text-3xl max-sm:text-2xl">
+      <h3 className="font-bold text-3xl text-center max-sm:text-2xl">
         If my profile aligns with your organizational objectives, I am excited
         about the opportunity to join your team and make a positive impact!
       </h3>
-      <div className="flex items-center gap-2">
+      <div className="flexJustifyCenter gap-2">
         {socialicons.map((social) => (
           <a
             key={social.id}

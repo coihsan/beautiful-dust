@@ -201,4 +201,18 @@ export const iconsUI = {
       />
     </svg>
   ),
+  call_made: (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.05 12L0 10.95L8.7 2.25H3.75V0.75H11.25V8.25H9.75V3.3L1.05 12Z"
+        fill="#F0F0F0"
+      />
+    </svg>
+  ),
 };
