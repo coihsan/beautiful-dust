@@ -1,4 +1,5 @@
 import NextJS from "../UI/NextJS";
+import AstroJS from "../UI/AstroJS";
 export default function Using() {
   return (
     <div className="py-12">
@@ -32,9 +33,9 @@ export default function Using() {
         </a>{" "}
         frameworks in my work.
       </h1>
-      <div className="pt-9 grid grid-cols-2 gap-3">
+      <div className="pt-9 grid grid-cols-2 gap-3 max-sm:grid-cols-1">
         <NextJS />
-        <NextJS />
+        <AstroJS />
       </div>
     </div>
   );

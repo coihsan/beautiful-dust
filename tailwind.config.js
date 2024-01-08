@@ -11,6 +11,9 @@ module.exports = {
       gridTemplateColumns: {
         18: "repeat(18, minmax(0, 1fr))",
       },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--gradient-color-stops))",
+      },
     },
   },
   plugins: [],
