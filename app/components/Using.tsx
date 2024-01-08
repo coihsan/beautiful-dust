@@ -32,7 +32,8 @@ export default function Using() {
         </a>{" "}
         frameworks in my work.
       </h1>
-      <div className="pt-9">
+      <div className="pt-9 grid grid-cols-2 gap-3">
+        <NextJS />
         <NextJS />
       </div>
     </div>
