@@ -7,7 +7,7 @@ const Hero = () => {
   const personal = personaldata[0];
   return (
     <section className="mx-auto w-full grid py-12">
-      <div className="flex items-center pb-9 max-sm:flex-col gap-6">
+      <div className="flex items-center pb-9 flex-col gap-6">
         <Image
           className="rounded-[20%]"
           src={"/avatar.webp"}

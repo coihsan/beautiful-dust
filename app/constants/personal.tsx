@@ -1,4 +1,4 @@
-import { iconsUI } from "../constants/Icons";
+import { iconsUI } from "../constants/icons";
 
 export const personaldata: {
   key: number;
