@@ -49,3 +49,10 @@ export const personaldata: {
     ],
   },
 ];
+
+export const offering = [
+  "Landing Page Creation",
+  "Blog",
+  "Portofolios",
+  "Company Profile Sites",
+];
