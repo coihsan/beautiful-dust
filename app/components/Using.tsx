@@ -25,7 +25,7 @@ export default function Using() {
         </a>{" "}
         or{" "}
         <a
-          className="after:content-['_↗'] bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 underline decoration-violet-600"
+          className="after:content-['_↗'] bg-clip-text text-transparent bg-gradient-to-r from-[#D83333] to-[#F041FF] underline decoration-[#D83333]"
           href="https://astro.build/"
           target="_blank"
           rel="noopener noreferrer"

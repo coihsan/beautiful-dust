@@ -9,7 +9,7 @@ interface Props {
 export default function ButtonUI({ link, variant, text, icon }: Props) {
   return (
     <Link
-      className={`shadow-md shadow-zinc-300 dark:shadow-inherit flex items-center justify-between gap-2 cursor-pointer px-2 w-[9rem] h-11 rounded-full border bg-[#17181C] text-white ${variant}`}
+      className={`shadow-md dark:shadow-lg shadow-zinc-300 hover:dark:shadow-zinc-500/50 flex items-center justify-between gap-2 cursor-pointer px-2 w-[9rem] h-11 rounded-full border bg-[#17181C] text-white ${variant}`}
       href={link}
     >
       <span className="pl-2 leading-none">{text}</span>
