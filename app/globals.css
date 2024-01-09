@@ -22,6 +22,6 @@
     @apply border dark:border-[#9AA0AE];
   }
   .dotHover {
-    @apply group-hover:bg-sky-400 group-hover:g-sky-100 transition-all ease-linear duration-500 delay-0 rounded-full group-hover:boxShadow;
+    @apply group-hover:bg-sky-400 group-hover:bg-sky-100 transition-all ease-linear duration-500 delay-0 rounded-full group-hover:boxShadow;
   }
 }

@@ -22,17 +22,17 @@ export default function CodeForFun() {
               />
             </div>
             <h3>{projects.projectstitle}</h3>
-            <div className="flex gap-2">
+            <div className="flex gap-2 py-3">
               {projects.ProjectsDesc.map((skilleds) => (
                 <span className="text-sm text-zinc-600 dark:text-zinc-300  px-3 py-1 rounded-full bg-zinc-200 dark:bg-zinc-800">
                   {skilleds}
                 </span>
               ))}
             </div>
-            <div className="grid grid-cols-2 gap-2 pt-5">
+            <div className="grid grid-cols-2 gap-2 ">
               <a
                 className="flexJustifyCenter py-2 gap-2 rounded-lg bg-black text-white"
-                href="http://"
+                href={projects.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ export default function CodeForFun() {
               </a>
               <a
                 className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white text-black"
-                href="http://"
+                href={projects.getCode}
                 target="_blank"
                 rel="noopener noreferrer"
               >

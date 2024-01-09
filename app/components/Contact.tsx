@@ -2,10 +2,12 @@ import { socialicons } from "../constants/socialicons";
 import ButtonCopy from "../UI/ButtonCopy";
 import ButtonLink from "../UI/ButtonLink";
 import { iconsUI } from "../constants/icons";
+import TitleSection from "../UI/TitleSection";
 
 export default function Contact() {
   return (
     <div className="my-[5rem]">
+      <TitleSection title={""} icon={iconsUI.sentiment} />
       <h3 className="font-bold text-3xl text-center max-sm:text-2xl">
         If my profile aligns with your organizational objectives, I am excited
         about the opportunity to join your team and make a positive impact!

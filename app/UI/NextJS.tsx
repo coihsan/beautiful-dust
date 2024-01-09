@@ -100,22 +100,22 @@ export default function NextJS() {
   return (
     <div className="w-full h-60 bg-zinc-900 rounded-lg p-5 group">
       <DotLight />
-      <div className="flex items-end justify-between mt-6">
+      <a
+        href="https://nextjs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-end justify-between mt-6"
+      >
         <div className="grid">
           <h2 className="text-[2rem] text-white">Next.js 14</h2>
           <p className="text-white text-sm w-60">
             The power of full-stack to the frontend. Read the release notes.
           </p>
         </div>
-        <a
-          className="flexJustifyCenter p-2 rounded-full bg-zinc-800 group-hover:bg-zinc-600 transition-all ease-linear duration-300"
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="flexJustifyCenter p-2 rounded-full bg-zinc-800 group-hover:bg-zinc-600 transition-all ease-linear duration-300">
           <span className="invert">{iconsUI.arrow_left_alt}</span>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   );
 }

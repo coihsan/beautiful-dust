@@ -18,8 +18,11 @@ const Hero = () => {
         <h1 className="text-7xl max-sm:text-6xl font-bold">˗ˏˋIhsanˎˊ</h1>
         <h3>
           I’m Digital Marketing at{" "}
-          <a href="#" className="px-3 py-1 rounded-full bg-slate-300">
-            Freelance.com
+          <a
+            href="#"
+            className="px-3 py-1 rounded-full text-zinc-100 bg-zinc-900 dark:bg-zinc-100 dark:text-zinc-900"
+          >
+            freelance.com
           </a>
         </h3>
       </div>
@@ -47,7 +50,7 @@ const Hero = () => {
             <div>{iconsUI.skillshop}</div>
             <a
               href=""
-              className="px-4 py-1 text-[1.2rem] text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline"
+              className="px-4 py-1 text-[1.2rem] text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline "
             >
               Skillshop
             </a>
