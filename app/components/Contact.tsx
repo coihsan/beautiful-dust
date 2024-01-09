@@ -10,10 +10,10 @@ export default function Contact() {
       <TitleSection title={"Let's Connect!"} icon={iconsUI.sentiment} />
       <div className="flexJustifyCenter gap-3 pb-5">
         <span className="relative flex h-3 w-3">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-3 w-3 bg-rose-500"></span>
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
         </span>
-        <h3 className="text-rose-500">1 Spot available</h3>
+        <h3>Available for Full-Time</h3>
       </div>
       <h3 className="font-bold text-3xl text-center max-sm:text-2xl w-8/12 max-sm:w-full mx-auto">
         If you are interested in my resume, I am ready to work with you.

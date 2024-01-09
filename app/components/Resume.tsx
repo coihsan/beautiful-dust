@@ -5,21 +5,28 @@ export default function Resume() {
   return (
     <section className="bgSchemaDark rounded-lg py-9 mt-9 overflow-hidden">
       <TitleSection title={"Journey"} icon={iconsUI.journey} />
-      <div className="overflow-scroll overscroll-y-auto h-[20rem] w-full ">
-        <div className="relative before:absolute before:left-10 before:inline-flex before:h-full before:w-px before:bg-zinc-700">
-          <ul className="grid grid-cols-1 gap-3 px-16">
-            {ResumeData.map((work) => (
-              <li
-                key={work.id}
-                className="flex flex-col items-start border-b-[1px] border-slate-300  last:border-none py-5"
-              >
-                <span className="text-zinc-600">{work.year}</span>
-                <h3 className="pt-2 pb-1 font-semibold">{work.company}</h3>
+      <div className="overflow-scroll overscroll-y-auto touch-pan-y h-[20rem] w-full ">
+        <ul className="grid grid-cols-1 gap-3 p-5">
+          {ResumeData.map((work) => (
+            <li
+              key={work.id}
+              className="flex items-start border-b-[1px] border-slate-300 dark:border-[#282A31] last:border-none py-5"
+            >
+              <span className="fill-[#282A31] dark:fill-zinc-100 p-2 rounded-md bg-white dark:bg-[#282A31]">
+                {work.icon}
+              </span>
+              <div className="flex gap-2 flex-col items-start ml-5">
+                <span className="text-zinc-700 dark:text-zinc-400">
+                  {work.year}
+                </span>
+                <h3 className="pt-1 font-semibold leading-none text-[1.2rem]">
+                  {work.company}
+                </h3>
                 <p>{work.position}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

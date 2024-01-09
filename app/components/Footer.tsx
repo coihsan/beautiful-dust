@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function Header() {
   const today = new Date();
   const month = [
@@ -15,15 +14,16 @@ export default function Header() {
     "November",
     "December",
   ];
-  const thisYear = month[today.getMonth()];
-  const thisMonth = today.getMonth();
+  const thisYear = today.getFullYear();
+  const thisMonth = month[today.getMonth()];
+  const thisFormat = thisMonth + " " + thisYear;
   return (
     <footer className="flex items-center justify-between max-sm:flex-col-reverse pb-12">
       <p className="text-sm text-zinc-800 dark:text-zinc-400">
         &#169; {thisYear} ALL right Reserved to coihsan
       </p>
       <code className="text-sm max-sm:pb-3">
-        Last update &minus; 02 {thisMonth} {thisYear}
+        Last update &minus; 02 {thisFormat}
       </code>
     </footer>
   );

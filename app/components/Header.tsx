@@ -3,7 +3,7 @@ import { navlink } from "../constants/personal";
 import Image from "next/image";
 export default function Header() {
   return (
-    <header className="max-w-screen-md mx-auto bg-[#17181C] dark:bg-zinc-100 dark:text-zinc-900 dark:shadow-2xl dark:shadow-zinc-500/50 px-6 text-zinc-100 rounded-lg mt-5">
+    <header className="max-w-screen-md mx-auto bg-[#EAEFF2] dark:bg-[#17181C] dark:shadow-2xl dark:shadow-[#353844]/50 px-6 text-[#17181C] dark:text-zinc-100 rounded-lg mt-5 border-[1px] border-[#ABABAB] dark:border-[#353844]">
       <div className="w-full mx-auto flex items-center justify-between py-3">
         <div className="flex items-center">
           <div className="flex items-center gap-2">
