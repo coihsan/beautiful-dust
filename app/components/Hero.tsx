@@ -50,12 +50,12 @@ const Hero = () => {
           <div className="flex items-center gap-1 flex-wrap">
             {credentials.map((link) => (
               <a
-              key={link.id}
-              href={link.url}
-              className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline "
-            >
-              {{link.title} + {" / "}}
-            </a>
+                key={link.id}
+                href={link.url}
+                className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline "
+              >
+                {link.title}
+              </a>
             ))}
           </div>
         </div>

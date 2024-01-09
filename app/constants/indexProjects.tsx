@@ -37,6 +37,7 @@ export const ProjectList: {
     id: 3,
     image: "/macksmith.webp",
     url: "https://macksmith-template.stackblitz.io/",
+    getCode: "#",
     projectstitle: "Mack Smith - Portofolio Web Page",
     ProjectsDesc: ["HTML", "CSS", "JavaScript"],
   },

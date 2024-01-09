@@ -1,6 +1,6 @@
 interface titleProps {
   title: string;
-  icon?: JSX.element;
+  icon?: JSX.Element;
 }
 export default function TitleSection({ title, icon }: titleProps) {
   return (
