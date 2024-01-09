@@ -36,7 +36,7 @@ const Hero = () => {
             {personal.passion.map((skill) => (
               <div
                 key={skill.key}
-                className="flex items-center gap-1 px-5 py-2 shadow-md bgTheme rounded-full border border-zinc-400 dark:border-zinc-100"
+                className="flex items-center gap-1 listTheme"
               >
                 <span className="dark:fill-zinc-100">{skill.icon}</span>
                 <p className="font-medium max-sm:text-sm">{skill.skilled}</p>

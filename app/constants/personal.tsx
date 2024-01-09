@@ -1,5 +1,21 @@
 import { iconsUI } from "../constants/icons";
-
+export const navlink = [
+  {
+    id: 0,
+    text: "Projects",
+    url: "#",
+  },
+  {
+    id: 1,
+    text: "Source",
+    url: "#",
+  },
+  {
+    id: 2,
+    text: "Blog",
+    url: "#",
+  },
+];
 export const personaldata: {
   key: number;
   about: string;

@@ -36,10 +36,7 @@ export default function Using() {
       </h1>
       <ul className="flexJustifyCenter flex-wrap gap-2 py-9">
         {offering.map((offering, key) => (
-          <li
-            className="px-5 py-2 shadow-md bgSchemaDark rounded-full bordered"
-            key={key}
-          >
+          <li className="listTheme" key={key}>
             <span className="text-sky-400 dark:text-sky-600">#</span>
             <em>{offering}</em>
           </li>

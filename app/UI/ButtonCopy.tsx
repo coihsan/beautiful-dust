@@ -1,6 +1,6 @@
 "use client";
 import { iconsUI } from "../constants/icons";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function ButtonCopy() {
   const [isCopied, setIsCopied] = useState(false);
@@ -23,7 +23,7 @@ export default function ButtonCopy() {
       className="w-max shadow-md shadow-zinc-300 dark:shadow-inherit flex px-5 h-11 rounded-full bg-zinc-100 hover:bg-zinc-200 items-center gap-2 cursor-pointer border border-zinc-300 dark:border-white"
     >
       <span>{isCopied ? "Copied" : "E-Mail"}</span>
-      <span>{iconsUI.copy}</span>
+      <span className="fill-[#17181C]">{iconsUI.copy}</span>
     </button>
   );
 }

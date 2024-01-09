@@ -1,4 +1,5 @@
 import DarkMode from "../UI/DarkMode";
+import { navlink } from "../constants/personal";
 import Image from "next/image";
 export default function Header() {
   return (
@@ -15,8 +16,16 @@ export default function Header() {
             />
             <span className="font-bold text-lg">coihsan</span>
           </div>
-          <nav className="ml-5">
-            <a href="">Projects</a>
+          <nav className="flex items-center gap-5 ml-5">
+            {navlink.map((links) => (
+              <a
+                className="text-zinc-400 hover:text-zinc-100"
+                key={links.id}
+                href={links.url}
+              >
+                {links.text}
+              </a>
+            ))}
           </nav>
         </div>
         <DarkMode />

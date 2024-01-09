@@ -24,4 +24,10 @@
   .dotHover {
     @apply group-hover:bg-sky-400 group-hover:bg-sky-100 transition-all ease-linear duration-500 delay-0 rounded-full group-hover:boxShadow;
   }
+  .transitionAll {
+    @apply transition-all ease-in-out duration-300;
+  }
+  .listTheme {
+    @apply px-5 py-2 shadow-md rounded-full bg-[#EAEFF2] dark:bg-[#17181C] border border-[#ABABAB] dark:border-[#353844] fill-[#17181C] dark:fill-zinc-50;
+  }
 }

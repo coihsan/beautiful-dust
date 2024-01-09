@@ -10,7 +10,7 @@ export default function CodeForFun() {
         {ProjectList.map((projects) => (
           <li
             key={projects.id}
-            className="p-3 rounded-lg bg-[#EAEFF2] dark:bg-[#17181C] border-[#9AA0AE] dark:border-[#353844] group"
+            className="p-3 rounded-lg bg-[#EAEFF2] dark:bg-[#17181C] border border-[#9AA0AE] dark:border-[#353844] group"
           >
             <div className="overflow-hidden rounded-lg">
               <Image
@@ -26,7 +26,7 @@ export default function CodeForFun() {
               {projects.ProjectsDesc.map((skilleds, index) => (
                 <span
                   key={index}
-                  className="text-sm text-zinc-600 dark:text-zinc-300 px-3 py-1 rounded-full bg-zinc-50 dark:bg-zinc-800"
+                  className="text-sm text-zinc-600 dark:text-zinc-300 px-3 py-1 rounded-full bg-zinc-50 dark:bg-[#282A31]"
                 >
                   {skilleds}
                 </span>
@@ -34,7 +34,7 @@ export default function CodeForFun() {
             </div>
             <div className="grid grid-cols-2 gap-2 ">
               <a
-                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-black text-white"
+                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-[#09090B] text-white hover:bg-[#282A31] transitionAll"
                 href={projects.url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,13 +43,13 @@ export default function CodeForFun() {
                 <span>{iconsUI.call_made}</span>
               </a>
               <a
-                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white text-black"
+                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white hover:bg-zinc-300 text-black transitionAll"
                 href={projects.getCode}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="">{iconsUI.github}</span>
-                <span className="text-sm">Preview</span>
+                <span className="text-sm">Repository</span>
               </a>
             </div>
           </li>
