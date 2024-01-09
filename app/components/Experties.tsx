@@ -34,7 +34,7 @@ export default function Experties() {
       <WrapperList className={""} index={techstack} />
       <div className="mt-5">
         <h3 className="text-center text-[1.5rem] font-semibold mb-5">
-          More Tool's
+          More Tool{"'"}s
         </h3>
         <WrapperList className={""} index={moretools} />
       </div>

@@ -52,7 +52,7 @@ const Hero = () => {
               <a
                 key={link.id}
                 href={link.url}
-                className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline "
+                className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-slate-200 hover:dark:bg-zinc-800 rounded-full hover:underline transition-all duration-300 ease-in-out"
               >
                 {link.title}
               </a>

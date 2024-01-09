@@ -4,7 +4,7 @@ import Experties from "./components/Experties";
 import Using from "./components/Using";
 import CodeForFun from "./components/CodeForFun";
 import Contact from "./components/Contact";
-import { ResumeData } from "./constants/personal";
+import Resume from "./components/Resume";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Experties />
       <Using />
       <CodeForFun />
-      <ResumeData />
+      <Resume />
       <Contact />
     </main>
   );
