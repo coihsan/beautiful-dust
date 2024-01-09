@@ -10,7 +10,7 @@ export default function CodeForFun() {
         {ProjectList.map((projects) => (
           <li
             key={projects.id}
-            className="p-3 rounded-lg bg-[#EAEFF2] dark:bg-[#17181C] bordered group"
+            className="p-3 rounded-lg bg-[#EAEFF2] dark:bg-[#17181C] border-[#9AA0AE] dark:border-[#353844] group"
           >
             <div className="overflow-hidden rounded-lg">
               <Image
