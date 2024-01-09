@@ -7,7 +7,7 @@ export default function Using() {
       <h1 className="leading-tight max-sm:leading-7 text-[2rem] max-sm:text-[1.4rem] mx-auto font-semibold text-center w-11/12 max-sm:w-full">
         When focusing on #SEO or #features, I use{" "}
         <a
-          className="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-blue-500 underline decoration-sky-500"
+          className="after:content-['_↗'] bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-blue-500 underline decoration-sky-500"
           href="https://react.dev/"
           target="_blank"
           rel="noopener noreferrer"
@@ -16,7 +16,7 @@ export default function Using() {
         </a>{" "}
         and either{" "}
         <a
-          className="underline"
+          className="underline after:content-['_↗']"
           href="https://nextjs.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -25,7 +25,7 @@ export default function Using() {
         </a>{" "}
         or{" "}
         <a
-          className="bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 underline decoration-violet-600"
+          className="after:content-['_↗'] bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-violet-600 underline decoration-violet-600"
           href="https://astro.build/"
           target="_blank"
           rel="noopener noreferrer"

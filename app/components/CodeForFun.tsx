@@ -21,10 +21,10 @@ export default function CodeForFun() {
                 alt="code for fun and free"
               />
             </div>
-            <h3>{projects.projectstitle}</h3>
+            <h3 className="font-semibold pt-3">{projects.projectstitle}</h3>
             <div className="flex gap-2 py-3">
               {projects.ProjectsDesc.map((skilleds) => (
-                <span className="text-sm text-zinc-600 dark:text-zinc-300  px-3 py-1 rounded-full bg-zinc-200 dark:bg-zinc-800">
+                <span className="text-sm text-zinc-600 dark:text-zinc-300 px-3 py-1 rounded-full bg-zinc-50 dark:bg-zinc-800">
                   {skilleds}
                 </span>
               ))}
