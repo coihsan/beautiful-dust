@@ -56,8 +56,19 @@ export const offering = [
   "Portofolios",
   "Company Profile",
 ];
-
-const ResumeData = [
+export const credentials = [
+  {
+    id: 0,
+    url: "#",
+    title: "Skillshop",
+  },
+  {
+    id: 1,
+    url: "#",
+    title: "Accredible.net",
+  },
+];
+export const ResumeData = [
   {
     id: 0,
     company: "PT. Anang Jhonny",

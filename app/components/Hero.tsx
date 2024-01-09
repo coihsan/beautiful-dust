@@ -1,7 +1,7 @@
 import { iconsUI } from "../constants/icons";
 
 import Link from "next/link";
-import { personaldata } from "../constants/personal";
+import { personaldata, credentials } from "../constants/personal";
 import Image from "next/image";
 const Hero = () => {
   const personal = personaldata[0];
@@ -16,11 +16,11 @@ const Hero = () => {
           alt="ihsan"
         />
         <h1 className="text-7xl max-sm:text-6xl font-bold">˗ˏˋIhsanˎˊ</h1>
-        <h3>
+        <h3 className="text-center">
           I’m Digital Marketing at{" "}
           <a
             href="#"
-            className="after:content-['_↗'] px-3 py-1 rounded-full text-zinc-100 bg-zinc-900 dark:bg-zinc-100 dark:text-zinc-900"
+            className="text-wrap after:content-['_↗'] px-3 py-1 rounded-full text-zinc-100 bg-zinc-900 dark:bg-zinc-100 dark:text-zinc-900"
           >
             freelance.com
           </a>
@@ -45,22 +45,18 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center gap-2 flex-col">
+          <div>{iconsUI.skillshop}</div>
           <h3 className="font-semibold">Credentials :</h3>
           <div className="flex items-center gap-1 flex-wrap">
-            <div>{iconsUI.skillshop}</div>
-            <a
-              href=""
-              className="after:content-['_↗'] px-4 py-1 text-[1.2rem] text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline "
+            {credentials.map((link) => (
+              <a
+              key={link.id}
+              href={link.url}
+              className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 rounded-full hover:underline "
             >
-              Skillshop
+              {{link.title} + {" / "}}
             </a>
-            {" / "}
-            <a
-              href=""
-              className="after:content-['_↗'] px-4 text-[1.2rem] py-1 text-sky-600 dark:text-sky-400 hover:bg-zinc-200 hover:dark:bg-zinc-800 hover:underline rounded-full"
-            >
-              Accredible.net
-            </a>
+            ))}
           </div>
         </div>
       </div>
