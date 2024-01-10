@@ -5,16 +5,18 @@ import Using from "./components/Using";
 import CodeForFun from "./components/CodeForFun";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-
+import { GoogleAnalytics } from "@next/third-parties";
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Experties />
-      <Using />
-      <CodeForFun />
-      <Resume />
-      <Contact />
+      <GoogleAnalytics id="G-GFF36FH35B">
+        <Hero />
+        <Experties />
+        <Using />
+        <CodeForFun />
+        <Resume />
+        <Contact />
+      </GoogleAnalytics>
     </main>
   );
 }
