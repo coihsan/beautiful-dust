@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Script from "next/script";
 
-import type { GAParams } from "../constants/google";
+import type { GAParams } from "../types/google";
 
 declare global {
   interface Window {
