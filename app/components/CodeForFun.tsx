@@ -2,7 +2,7 @@ import Image from "next/image";
 import { iconsUI } from "../constants/icons";
 import { ProjectList } from "../constants/indexProjects";
 import TitleSection from "../UI/TitleSection";
-export default function CodeForFun() {
+export default async function CodeForFun() {
   return (
     <section>
       <TitleSection title={"Code for Fun"} icon={iconsUI.code} />
