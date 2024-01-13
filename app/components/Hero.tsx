@@ -22,7 +22,7 @@ const Hero = () => {
     <section className="mx-auto w-full grid pb-12 pt-5">
       <div className="flex items-center flex-col gap-6">
         <div className="relative pb-12 flexJustifyCenter">
-          <div className="absolute top-3 w-full">
+          <div className="absolute top-3 max-sm:top-0 w-full">
             <Header />
           </div>
           <Banner />

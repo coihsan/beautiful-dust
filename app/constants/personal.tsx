@@ -3,17 +3,17 @@ export const navlink = [
   {
     id: 0,
     text: "Projects",
-    url: "#",
+    url: "/projects",
   },
   {
     id: 1,
     text: "Template",
-    url: "#",
+    url: "/template",
   },
   {
     id: 2,
     text: "Blog",
-    url: "#",
+    url: "/blog",
   },
 ];
 export const personaldata: {

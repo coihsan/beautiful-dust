@@ -4,8 +4,8 @@ import { offering } from "../constants/personal";
 export default function Using() {
   return (
     <div className="py-12">
-      <h1 className="leading-tight max-sm:leading-7 text-[2rem] max-sm:text-[1.4rem] mx-auto font-semibold text-center w-11/12 max-sm:w-full">
-        When focusing on #SEO or #features, I use{" "}
+      <h1 className="leading-tight max-sm:leading-7 text-[2rem] max-sm:text-[1.4rem] mx-auto font-semibold text-center  max-sm:w-full">
+        My favorite tool when focusing on #SEO or #features, I use{" "}
         <a
           className="after:content-['_↗'] bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-blue-500 underline decoration-sky-500"
           href="https://react.dev/"
@@ -32,7 +32,7 @@ export default function Using() {
         >
           Astro.js
         </a>{" "}
-        frameworks in my work.
+        frameworks.
       </h1>
       <ul className="flexJustifyCenter flex-wrap gap-2 py-9">
         {offering.map((offering, key) => (
