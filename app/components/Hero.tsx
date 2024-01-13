@@ -1,20 +1,39 @@
 import { iconsUI } from "../constants/icons";
-
+import Header from "../components/Header";
 import Link from "next/link";
 import { personaldata, credentials } from "../constants/personal";
 import Image from "next/image";
+export function Banner() {
+  return (
+    <div className="overflow-hidden bg-rose-500 w-full rounded-lg">
+      <Image
+        className="rounded-lg"
+        src={"/banner1.webp"}
+        width={900}
+        height={800}
+        alt="banner"
+      />
+    </div>
+  );
+}
 const Hero = () => {
   const personal = personaldata[0];
   return (
-    <section className="mx-auto w-full grid py-12">
+    <section className="mx-auto w-full grid pb-12 pt-3">
       <div className="flex items-center flex-col gap-6">
-        <Image
-          className="rounded-full"
-          src={"/avatar.webp"}
-          width={160}
-          height={160}
-          alt="ihsan"
-        />
+        <div className="relative pb-12 flexJustifyCenter">
+          <div className="absolute top-3 w-full">
+            <Header />
+          </div>
+          <Banner />
+          <Image
+            className="rounded-full absolute mx-auto bottom-0 border-4 border-white"
+            src={"/avatar.webp"}
+            width={160}
+            height={160}
+            alt="ihsan"
+          />
+        </div>
         <h1 className="text-7xl max-sm:text-6xl font-bold">˗ˏˋIhsanˎˊ</h1>
         <h3 className="text-center">
           I’m Digital Marketing at{" "}

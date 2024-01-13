@@ -29,7 +29,7 @@ export function WrapperList({ index, className }: WrapperListProps) {
 }
 export default function Experties() {
   return (
-    <section className="w-full rounded-lg bgSchemaDark p-9 max-sm:px-3 max-sm:py-9 ">
+    <section className="w-full rounded-lg">
       <TitleSection title={"Tech Stack"} icon={iconsUI.terminal} />
       <WrapperList className={""} index={techstack} />
       <div className="mt-5">

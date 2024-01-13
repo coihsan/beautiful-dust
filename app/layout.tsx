@@ -20,8 +20,7 @@ export default function RootLayout({
         <meta name="googlebot" content="noindex" />
         {/* <GoogleAnalytics gaId="G-GFF36FH35B" /> */}
       </head>
-      <body className="bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-100 max-w-screen-md px-6 mx-auto">
-        <Header />
+      <body className="bg-white dark:bg-bunker-950 text-zinc-800 dark:text-zinc-100 max-w-screen-md px-6 mx-auto">
         <main>{children}</main>
         <Footer />
       </body>

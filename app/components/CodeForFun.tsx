@@ -14,9 +14,9 @@ export default function CodeForFun() {
           >
             <div className="overflow-hidden rounded-lg">
               <Image
-                className="rounded-lg group-hover:scale-[1.1] transition-all ease-in-out duration-300"
+                className="w-full rounded-lg group-hover:scale-[1.1] transition-all ease-in-out duration-300"
                 src={projects.image}
-                width={351}
+                width={451}
                 height={351}
                 alt="code for fun and free"
               />
