@@ -34,7 +34,7 @@ export default function CodeForFun() {
             </div>
             <div className="grid grid-cols-2 gap-2 ">
               <a
-                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-[#09090B] text-white hover:bg-[#282A31] transitionAll"
+                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-[#09090B] text-white hover:bg-bunker-900 transitionAll"
                 href={projects.url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ export default function CodeForFun() {
                 <span>{iconsUI.call_made}</span>
               </a>
               <a
-                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white dark:bg-bunker-900 hover:bg-bunker-300 hover:dark:bg-bunker-100 transitionAll"
+                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white dark:bg-bunker-900 hover:bg-bunker-100 dark:hover:bg-bunker-800 transitionAll"
                 href={projects.getCode}
                 target="_blank"
                 rel="noopener noreferrer"
