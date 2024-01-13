@@ -5,9 +5,9 @@ import { personaldata, credentials } from "../constants/personal";
 import Image from "next/image";
 export function Banner() {
   return (
-    <div className="overflow-hidden bg-rose-500 w-full rounded-lg">
+    <div className="overflow-hidden w-full h-[270px] rounded-2xl">
       <Image
-        className="rounded-lg"
+        className="rounded-2xl"
         src={"/banner1.webp"}
         width={900}
         height={800}
@@ -19,7 +19,7 @@ export function Banner() {
 const Hero = () => {
   const personal = personaldata[0];
   return (
-    <section className="mx-auto w-full grid pb-12 pt-3">
+    <section className="mx-auto w-full grid pb-12 pt-5">
       <div className="flex items-center flex-col gap-6">
         <div className="relative pb-12 flexJustifyCenter">
           <div className="absolute top-3 w-full">
@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
           <Banner />
           <Image
-            className="rounded-full absolute mx-auto bottom-0 border-4 border-white"
+            className="rounded-full absolute mx-auto bottom-[-20px] max-sm:bottom-4 border-4 border-white dark:border-bunker-900"
             src={"/avatar.webp"}
             width={160}
             height={160}

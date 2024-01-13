@@ -34,7 +34,7 @@ export default function DarkMode() {
           {isDarkMode ? iconsUI.moon : iconsUI.sun}
         </span>
         <select
-          className="appearance-none text-zinc-900 dark:text-zinc-100 dark bg-[#EAEFF2] dark:bg-[#17181C] cursor-pointer text-sm bg-"
+          className="text-zinc-50 dark bg-transparent cursor-pointer text-sm bg-"
           name="theme"
           id="darkmode"
           onChange={handleDarkMode}

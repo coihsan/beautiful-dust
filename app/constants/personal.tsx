@@ -7,7 +7,7 @@ export const navlink = [
   },
   {
     id: 1,
-    text: "Source",
+    text: "Template",
     url: "#",
   },
   {

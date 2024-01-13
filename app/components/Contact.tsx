@@ -34,7 +34,7 @@ export default function Contact() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg p-3 bg-[#17181C] hover:bg-[#282A31] hover:scale-[0.9] transition-all ease-linear fill-white"
+            className="rounded-lg p-3 bg-bunker-900 hover:bg-bunker-800 hover:scale-[0.9] transition-all ease-linear fill-white"
           >
             {social.icon}
           </a>

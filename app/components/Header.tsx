@@ -6,17 +6,7 @@ export default function Header() {
     <header className="max-w-screen-md mx-auto px-6">
       <div className="w-full mx-auto flex items-center justify-between py-3">
         <div className="flex items-center">
-          <div className="flex items-center gap-2">
-            <Image
-              className="rounded-full border-2"
-              src={"/avatar.webp"}
-              width={40}
-              height={40}
-              alt="logo"
-            />
-            <span className="font-bold text-lg">coihsan</span>
-          </div>
-          {/* <nav className="flex items-center gap-5 ml-5">
+          <nav className="flex items-center gap-5 ml-5">
             {navlink.map((links) => (
               <a
                 className="text-zinc-400 hover:text-zinc-100"
@@ -26,7 +16,7 @@ export default function Header() {
                 {links.text}
               </a>
             ))}
-          </nav> */}
+          </nav>
         </div>
         <DarkMode />
       </div>

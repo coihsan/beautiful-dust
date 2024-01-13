@@ -10,7 +10,7 @@ export default function CodeForFun() {
         {ProjectList.map((projects) => (
           <li
             key={projects.id}
-            className="p-3 rounded-lg bg-[#EAEFF2] dark:bg-[#17181C] border border-[#9AA0AE] dark:border-[#353844] group"
+            className="p-3 rounded-lg bg-bunker-50/30 dark:bg-bunker-900/30 border border-bunker-100 dark:border-bunker-700 group"
           >
             <div className="overflow-hidden rounded-lg">
               <Image
@@ -26,7 +26,7 @@ export default function CodeForFun() {
               {projects.ProjectsDesc.map((skilleds, index) => (
                 <span
                   key={index}
-                  className="text-sm text-zinc-600 dark:text-zinc-300 px-3 py-1 rounded-full bg-zinc-50 dark:bg-[#282A31]"
+                  className="text-sm text-bunker-600 dark:text-bunker-300 px-3 py-1 rounded-full bg-bunker-50 dark:bg-bunker-800"
                 >
                   {skilleds}
                 </span>
@@ -43,13 +43,13 @@ export default function CodeForFun() {
                 <span>{iconsUI.call_made}</span>
               </a>
               <a
-                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white hover:bg-zinc-300 text-black transitionAll"
+                className="flexJustifyCenter py-2 gap-2 rounded-lg bg-white dark:bg-bunker-900 hover:bg-bunker-300 hover:dark:bg-bunker-100 transitionAll"
                 href={projects.getCode}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="">{iconsUI.github}</span>
-                <span className="text-sm">Repository</span>
+                <span>{iconsUI.github}</span>
+                <span className="text-sm dark:text-white">Repository</span>
               </a>
             </div>
           </li>

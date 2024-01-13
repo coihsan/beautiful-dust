@@ -98,7 +98,7 @@ export function DotLight() {
 }
 export default function NextJS() {
   return (
-    <div className="w-full h-60 bg-bunker-900 border border-bunker-800 rounded-lg p-5 group">
+    <div className="w-full h-60 bg-bunker-950 border border-bunker-800 rounded-lg p-5 group">
       <DotLight />
       <a
         href="https://nextjs.org/"
