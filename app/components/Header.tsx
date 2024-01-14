@@ -9,6 +9,9 @@ export function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <nav className="flex items-center gap-5">
+      <button className="fill-white">
+        {navbarOpen ? iconsUI.menu : iconsUI.close}
+      </button>
       {navlink.map((links) => (
         <a
           className="text-bunker-400 hover:text-bunker-50"
