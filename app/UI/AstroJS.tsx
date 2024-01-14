@@ -5,7 +5,7 @@ export default function AstroJS() {
       href="https://astro.build/"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-full h-60 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 via-purple-950 to-zinc-900 rounded-lg p-5 group overflow-hidden border border-bunker-800"
+      className="w-full h-60 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 via-purple-950 to-bunker-900 rounded-lg p-5 group overflow-hidden border border-bunker-800"
     >
       <div className="flexJustifyCenter flex-col">
         <div className="flexJustifyCenter flex-col translate-y-[30%] group-hover:translate-y-[0%] transition-transform ease-in-out max-sm:translate-y-[0%]">

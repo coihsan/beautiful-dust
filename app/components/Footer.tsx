@@ -19,7 +19,7 @@ export default function Header() {
   const thisFormat = thisMonth + " " + thisYear;
   return (
     <footer className="flex items-center justify-between max-sm:flex-col-reverse pb-12">
-      <p className="text-sm text-zinc-800 dark:text-zinc-400">
+      <p className="text-sm text-bunker-800 dark:text-bunker-400">
         &#169; {thisYear} ALL right Reserved to coihsan
       </p>
       <code className="text-sm max-sm:pb-3">

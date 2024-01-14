@@ -20,7 +20,9 @@ export function WrapperList({ index, className }: WrapperListProps) {
           className="flexJustifyCenter gap-3 px-5 py-2 rounded-full bgSchemaList bordered max-sm:text-sm"
           key={item.id}
         >
-          <div className="">{item.icon}</div>
+          <div className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]">
+            {item.icon}
+          </div>
           <h4>{item.title}</h4>
         </li>
       ))}

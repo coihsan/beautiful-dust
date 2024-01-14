@@ -4,6 +4,7 @@ export const techstack = [
     title: "HTML 5",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="21"
         height="24"
         viewBox="0 0 21 24"
@@ -26,6 +27,7 @@ export const techstack = [
     title: "CSS 3",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="22"
         height="24"
         viewBox="0 0 22 24"
@@ -48,6 +50,7 @@ export const techstack = [
     title: "JavaScript",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="24"
         height="24"
         viewBox="0 0 24 24"
@@ -67,6 +70,7 @@ export const techstack = [
     title: "TypeScript",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="24"
         height="24"
         viewBox="0 0 24 24"
@@ -89,6 +93,7 @@ export const techstack = [
     title: "Tailwind CSS",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="37"
         height="22"
         viewBox="0 0 37 22"
@@ -125,6 +130,7 @@ export const techstack = [
     title: "Node.js",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="22"
         height="24"
         viewBox="0 0 22 24"
@@ -143,6 +149,7 @@ export const techstack = [
     title: "Google Ads",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="27"
         height="24"
         viewBox="0 0 27 24"
@@ -169,6 +176,7 @@ export const techstack = [
     title: "Figma",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="16"
         height="24"
         viewBox="0 0 16 24"
@@ -203,6 +211,7 @@ export const techstack = [
     title: "React.js",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="29"
         height="25"
         viewBox="0 0 29 25"
@@ -221,6 +230,7 @@ export const techstack = [
     title: "Photoshop CC",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="25"
         height="24"
         viewBox="0 0 25 24"
@@ -243,6 +253,7 @@ export const techstack = [
     title: "Illustrator CC",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="25"
         height="24"
         viewBox="0 0 25 24"
@@ -262,6 +273,7 @@ export const techstack = [
     title: "GitHub",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="25"
         height="24"
         viewBox="0 0 25 24"
@@ -280,6 +292,7 @@ export const techstack = [
     title: "Framer",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="16"
         height="24"
         viewBox="0 0 16 24"
@@ -308,6 +321,7 @@ export const moretools = [
     title: "Search Console",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="27"
         height="24"
         viewBox="0 0 27 24"
@@ -373,6 +387,7 @@ export const moretools = [
     title: "Analytics",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="22"
         height="24"
         viewBox="0 0 22 24"
@@ -395,6 +410,7 @@ export const moretools = [
     title: "SEMRush",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="40"
         height="24"
         viewBox="0 0 40 24"
@@ -413,6 +429,7 @@ export const moretools = [
     title: "Tag Manager",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="24"
         height="24"
         viewBox="0 0 24 24"
@@ -443,6 +460,7 @@ export const moretools = [
     title: "Meta Ads",
     icon: (
       <svg
+        className="max-sm:h-[20px] max-sm:w-[20px] h-[24px] w-[24px]"
         width="37"
         height="24"
         viewBox="0 0 37 24"

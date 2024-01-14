@@ -39,7 +39,7 @@ const Hero = () => {
           I’m Digital Marketing at{" "}
           <a
             href="#"
-            className="text-wrap after:content-['_↗'] px-3 py-1 rounded-full text-zinc-100 bg-zinc-900 dark:bg-zinc-100 dark:text-zinc-900"
+            className="text-wrap after:content-['_↗'] px-3 py-1 rounded-full text-bunker-100 bg-bunker-900 dark:bg-bunker-100 dark:text-bunker-900"
           >
             freelance.com
           </a>
@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
 
       <div className="mt-[2rem]">
-        <p className="text-[18px] text-center text-zinc-900 dark:text-zinc-300 w-10/12 mx-auto max-sm:w-full">
+        <p className="text-[18px] text-center text-bunker-900 dark:text-bunker-300 w-10/12 mx-auto max-sm:w-full">
           {personal.about}
         </p>
         <div className="my-[2rem]">
@@ -57,7 +57,7 @@ const Hero = () => {
                 key={skill.key}
                 className="flex items-center gap-1 listTheme"
               >
-                <span className="dark:fill-zinc-100">{skill.icon}</span>
+                <span className="dark:fill-bunker-100">{skill.icon}</span>
                 <p className="font-medium max-sm:text-sm">{skill.skilled}</p>
               </div>
             ))}
@@ -71,7 +71,7 @@ const Hero = () => {
               <a
                 key={link.id}
                 href={link.url}
-                className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-slate-200 hover:dark:bg-zinc-800 rounded-full hover:underline transition-all duration-300 ease-in-out"
+                className="after:content-['_↗'] px-4 py-1 text-[1.2rem] max-sm:text-sm text-sky-600 dark:text-sky-400 hover:bg-slate-200 hover:dark:bg-bunker-800 rounded-full hover:underline transition-all duration-300 ease-in-out"
               >
                 {link.title}
               </a>

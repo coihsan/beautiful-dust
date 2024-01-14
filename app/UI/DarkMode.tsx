@@ -30,7 +30,7 @@ export default function DarkMode() {
   return (
     <div className="relative rounded-md ">
       <div className="flex items-center gap-2 rounded-md px-3 py-2 text-white">
-        <span className="fill-zinc-900 dark:fill-zinc-100 w-[20px] h-[20px]">
+        <span className="fill-zinc-100 w-[20px] h-[20px]">
           {isDarkMode ? iconsUI.moon : iconsUI.sun}
         </span>
         <select

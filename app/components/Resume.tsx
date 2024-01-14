@@ -12,11 +12,11 @@ export default function Resume() {
               key={work.id}
               className="flex items-start border-b-[1px] border-slate-300 dark:border-[#282A31] last:border-none py-5"
             >
-              <span className="fill-[#282A31] dark:fill-zinc-100 p-2 rounded-md bg-white dark:bg-[#282A31]">
+              <span className="fill-[#282A31] dark:fill-bunker-100 p-2 rounded-md bg-white dark:bg-[#282A31]">
                 {work.icon}
               </span>
               <div className="flex gap-2 flex-col items-start ml-5">
-                <span className="text-zinc-700 dark:text-zinc-400">
+                <span className="text-bunker-700 dark:text-bunker-400">
                   {work.year}
                 </span>
                 <h3 className="pt-1 font-semibold leading-none text-[1.2rem]">
